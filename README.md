@@ -32,28 +32,28 @@ vvp alu.vvp
 
 **Sample Program**
 Demonstration of core functionality:
-<pre> ; Initialize registers with new values
-mov r2, 0x10      // Load immediate value 0x10 into r2
-mov r6, 0x05      // Load immediate value 0x05 into r6
-mov r8, 0x20      // Load immediate value 0x20 into r8
+<pre> 
+mov r2, 0x10     
+mov r6, 0x05     
+mov r8, 0x20     
 
-; Perform arithmetic and logic operations
-sub r9, r2, r6    // r9 = r2 - r6
-and r10, r2, r8   // r10 = r2 AND r8
 
-; Memory operations
-st r2, 0x04[r6]   // Store r2 at memory address (r6 + 0x04)
-ld r11, 0x04[r6]  // Load value from memory (r6 + 0x04) into r11
+sub r9, r2, r6   
+and r10, r2, r8   
+
+
+st r2, 0x04[r6]   
+ld r11, 0x04[r6]  
   </pre>
 
 Example Machine Code
-<pre> 01001100100000000000000000010000  ; mov r2, 0x10
-01001101100000000000000000000101  ; mov r6, 0x05
-01001110000000000000000000100000  ; mov r8, 0x20
-00000010010000100110000000000000  ; sub r9, r2, r6
-00010010100000101000000000000000  ; and r10, r2, r8
-01111100100001100000000000000100  ; st r2, 0x04[r6]
-01110110110001100000000000000100  ; ld r11, 0x04[r6]  </pre>
+<pre> 01001100100000000000000000010000  
+01001101100000000000000000000101 
+01001110000000000000000000100000 
+00000010010000100110000000000000 
+00010010100000101000000000000000 
+01111100100001100000000000000100  
+01110110110001100000000000000100   </pre>
 
 **Output**
 ![image](https://github.com/user-attachments/assets/41625618-046b-4561-824a-70795c4e5da7)
