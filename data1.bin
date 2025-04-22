@@ -1,7 +1,11 @@
-mov r3, 0xab
-mov r1, 0x01
-mov r7, 0x3
-mov r14, r7
-add r4, r3, r1
-st r3, 0x03[r1]
-ld r5, 0x03[r1]
+
+mov r2, 0x10     
+mov r6, 0x05     
+mov r8, 0x20     
+
+sub r9, r2, r6    
+and r10, r2, r8  
+
+
+st r2, 0x04[r6]  
+ld r11, 0x04[r6]  
