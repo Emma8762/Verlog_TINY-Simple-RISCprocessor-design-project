@@ -3,6 +3,7 @@
 A hardware implementation of a simplified RISC architecture using Verilog HDL, featuring pipelined execution and hazard detection.
 
 **Key Features**
+
 16-bit data path with reduced instruction set
 
 5-stage pipeline architecture (FETCH, DECODE, EXECUTE, MEMORY, WRITE-BACK)
@@ -15,6 +16,7 @@ Compact 32-bit instruction encoding
 
 
 **Simulation Setup**
+
 **Prerequisites**
 Icarus Verilog (iverilog v11.0+)
 GTKWave (for waveform visualization)
@@ -29,9 +31,11 @@ vvp alu.vvp
 </pre>
 
 3.View waveforms:
+
 <pre> gtkwave output_wave.vcd  </pre>
 
 **Sample Program**
+
 Demonstration of core functionality:
 <pre> 
 mov r2, 0x10     
@@ -57,6 +61,7 @@ Example Machine Code
 01110110110001100000000000000100   </pre>
 
 **Output**
+
 ![image](https://github.com/user-attachments/assets/41625618-046b-4561-824a-70795c4e5da7)
 
 **Implementation Details**
