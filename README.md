@@ -22,6 +22,7 @@ Icarus Verilog (iverilog v11.0+)
 GTKWave (for waveform visualization)
 
 **Running Simulations**
+
 1.Prepare test program:
 <pre> nano data.bin  # Insert machine code instructions  </pre>
 
