@@ -1,0 +1,2 @@
+1. Here the instruction memory is 1kB and each instruction is 32 bits wide. The instruction memory can hold 256 instructions.
+For every two clock cycles an instruction gets fetched from the instruction memory and decoded.
