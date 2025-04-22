@@ -55,6 +55,7 @@ Example Machine Code
 01111100100001100000000000000100  ; st r2, 0x04[r6]
 01110110110001100000000000000100  ; ld r11, 0x04[r6]  </pre>
 
+**Output**
 ![image](https://github.com/user-attachments/assets/41625618-046b-4561-824a-70795c4e5da7)
 
 **Implementation Details**
@@ -67,6 +68,7 @@ Forwarding Logic: Resolves data hazards without stalling
 ALU: Supports 8 core operations (ADD, SUB, AND, OR, etc.)
 
 Memory Interface: Byte-addressable load/store operations.
+
 
 
 
