@@ -1,4 +1,5 @@
 **SimpleRISC Processor Implementation in Verilog**
+
 A hardware implementation of a simplified RISC architecture using Verilog HDL, featuring pipelined execution and hazard detection.
 
 **Key Features**
